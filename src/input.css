@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toast-success {
+    @apply bg-green-100 border-green-200 shadow-green-100;
+}
+
+.toast-warning {
+    @apply bg-red-100 border-red-200 shadow-red-100; 
+}
+
+.toast-active {
+    @apply top-20 transform -translate-y-0;
+}
